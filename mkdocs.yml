@@ -1,0 +1,8 @@
+site_name: "shipping"
+site_description: "shipping api"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

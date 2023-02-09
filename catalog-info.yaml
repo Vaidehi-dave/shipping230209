@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "shipping"
+  description: "shipping api"
+  links:
+    - url: https://api-shipping-townsq.empcbr.thoughtworks-labs.net/api
+      title: shipping
+      icon: dashboard
+  annotations:
+    circleci.com/project-slug: github/platform-dx/shipping230209
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  platform-dx/shipping230209
+    sonarqube.org/project-key: "shipping"
+    backstage.io/kubernetes-label-selector: "app=shipping"
+    backstage.io/adr-location: docs/adrs/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "platform-dx"
+  providesApis:
+    - "shipping"
