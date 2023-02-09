@@ -19,4 +19,4 @@ spec:
   lifecycle: experimental
   owner: "platform-dx"
   providesApis:
-    - "shipping"
+    - "order"
