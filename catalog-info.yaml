@@ -20,3 +20,5 @@ spec:
   owner: "platform-dx"
   providesApis:
     - "order"
+  consumesApis:
+    - "refund"
